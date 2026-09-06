@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}   
+#container{
+    background-color:gray;
+    display: flex;
+    align-items: center;
+    /*justify-content: center;*/
+    flex-direction: column;
+    margin:200px 450px ;
+    height: 150px;
+    width: 400px;
+    gap:10px;
+}
+
+#city-input{
+    margin:4px 6px;
+    padding:5px;
+    border: none;
+    border-radius: 3px;
+}
+#get-wtr-btn{
+    padding: 3px;
+    color: blueviolet;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: chartreuse;
+    cursor: pointer;
+    border: 1px solid;
+    border-radius: 3px;
+}
+h1{
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    color:#FFEB3B;
+    gap:10px;
+}
