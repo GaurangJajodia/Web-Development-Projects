@@ -10,7 +10,7 @@
     /*justify-content: center;*/
     flex-direction: column;
     margin:200px 450px ;
-    height: 150px;
+    height: 250px;
     width: 400px;
     gap:10px;
 }
@@ -35,4 +35,7 @@ h1{
     font-family: 'Times New Roman', Times, serif;
     color:#FFEB3B;
     gap:10px;
+}
+.hidden{
+    display: none;
 }
